@@ -1,10 +1,11 @@
-module github.com/gagliardetto/solana-go
+module solana-go
 
 go 1.19
 
 require (
 	github.com/gagliardetto/binary v0.8.0
 	github.com/gagliardetto/gofuzz v1.2.2
+	github.com/gagliardetto/solana-go v1.10.0
 	github.com/gagliardetto/treeout v0.1.4
 	github.com/google/uuid v1.6.0
 )
@@ -33,7 +34,6 @@ require (
 	github.com/spf13/cast v1.3.0 // indirect
 	github.com/spf13/jwalterweatherman v1.0.0 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
-	github.com/tidwall/pretty v1.2.0 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2 // indirect
